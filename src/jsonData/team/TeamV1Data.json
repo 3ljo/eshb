@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "thumb": "eljoprofile.jpeg",
+        "name": "Eljo Shurdhi",
+        "designation": "CEO & Co-Founder",
+        "text": "Eljo leads ESHB Technology with a relentless drive for excellence. With deep expertise in web engineering and AI systems, he turns ambitious visions into working products that scale globally.",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "thumb": "eraprofile.jfif",
+        "name": "Era Bullari",
+        "designation": "Co-Founder & Strategy Lead",
+        "text": "Era shapes the strategic direction of ESHB Technology. Her sharp business acumen and passion for innovation ensure every client relationship is built on trust and measurable results.",
+        "delay": 200
+    }
+]

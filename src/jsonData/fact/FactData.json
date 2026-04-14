@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "activeClass": "active",
+        "thumb": "https://picsum.photos/seed/fact1/400/300",
+        "delay": "100",
+        "title": "Years Experience",
+        "end": "3"
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "thumb": "https://picsum.photos/seed/fact2/400/300",
+        "delay": "200",
+        "title": "Completed Projects",
+        "end": "20"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "thumb": "https://picsum.photos/seed/fact3/400/300",
+        "delay": "400",
+        "title": "Happy Clients",
+        "end": "15"
+    },
+    {
+        "id": 4,
+        "activeClass": "",
+        "thumb": "https://picsum.photos/seed/fact4/400/300",
+        "delay": "600",
+        "title": "Team Members",
+        "end": "2"
+    }
+]

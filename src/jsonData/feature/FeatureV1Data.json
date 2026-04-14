@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "thumb": "https://picsum.photos/seed/eshb1/1200/700",
+        "projectName": "AI Business Assistant",
+        "subTitle1": "A conversational AI platform built for small businesses",
+        "subTitle2": "to automate customer support and lead qualification.",
+        "info": "AI Solutions",
+        "date": "January 2025"
+    },
+    {
+        "id": 2,
+        "thumb": "https://picsum.photos/seed/eshb2/1200/700",
+        "projectName": "E-Commerce Platform",
+        "subTitle1": "A full-stack e-commerce solution with real-time inventory,",
+        "subTitle2": "custom CMS, and integrated payment processing.",
+        "info": "Web Development",
+        "date": "March 2025"
+    },
+    {
+        "id": 3,
+        "thumb": "https://picsum.photos/seed/eshb3/1200/700",
+        "projectName": "SaaS Dashboard",
+        "subTitle1": "A modern analytics dashboard with predictive insights",
+        "subTitle2": "and seamless third-party API integrations.",
+        "info": "Custom Software",
+        "date": "February 2025"
+    }
+]
