@@ -628,6 +628,21 @@
     }
 }
 
+@media (max-width: 809px) {
+    .feature-project {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .feature-project .img-box {
+        min-height: 260px !important;
+    }
+
+    .feature-project-lists {
+        gap: 24px;
+    }
+}
+
 @media (max-width: 767px) {
     .about-sec .funfacts-wrap {
         grid-template-columns: repeat(1, 1fr);
