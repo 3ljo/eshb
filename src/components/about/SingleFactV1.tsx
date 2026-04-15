@@ -10,7 +10,7 @@ interface DataType {
 }
 
 const SingleFactV1 = ({ fact }: { fact: DataType }) => {
-    const { id, activeClass, thumb, delay, title, end } = fact
+    const { activeClass, thumb, delay, title } = fact
     const isVideo = thumb?.endsWith(".mp4");
     const mediaSrc = thumb?.startsWith("http") || thumb?.startsWith("/") ? thumb : `/assets/images/${thumb}`;
 

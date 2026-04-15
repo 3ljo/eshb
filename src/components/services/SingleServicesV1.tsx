@@ -8,7 +8,7 @@ interface DataType {
 }
 
 const SingleServicesV1 = ({ services }: { services: DataType }) => {
-    const { id, icon, name, thumb, activeClass } = services
+    const { icon, name, thumb, activeClass } = services
 
     return (
         <>
