@@ -1359,71 +1359,64 @@ a {
     margin-bottom: 60px;
 }
 
-/* ── Project cards ───────────────────────────────────────── */
-.pcard {
-    border-radius: 12px;
+/* ── Project image grid ──────────────────────────────────── */
+.pgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.pgrid-item {
+    position: relative;
     overflow: hidden;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    transition: transform 0.3s ease, border-color 0.3s ease;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    aspect-ratio: 4 / 3;
+    cursor: pointer;
 }
 
-.pcard:hover {
-    transform: translateY(-6px);
-    border-color: rgba(255,255,255,0.2);
-}
-
-.pcard-img {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-}
-
-.pcard-img img {
+.pgrid-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
     display: block;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
 }
 
-.pcard:hover .pcard-img img {
-    transform: scale(1.06);
+.pgrid-item:hover img {
+    transform: scale(1.07);
 }
 
-.pcard-body {
-    padding: 20px;
+.pgrid-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0) 55%);
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    flex: 1;
+    justify-content: flex-end;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.35s ease;
 }
 
-.pcard-tag {
+.pgrid-item:hover .pgrid-overlay {
+    opacity: 1;
+}
+
+.pgrid-tag {
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 6px;
 }
 
-.pcard-title {
-    font-size: 17px;
+.pgrid-name {
+    font-size: 16px;
     font-weight: 600;
     color: #fff;
     margin: 0;
     line-height: 1.3;
-}
-
-.pcard-desc {
-    font-size: 13px;
-    color: rgba(255,255,255,0.4);
-    margin: 0;
-    line-height: 1.6;
 }
 
 .feature-project-lists {

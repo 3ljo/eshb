@@ -953,6 +953,23 @@
     }
 }
 
+/* ── Project image grid — mobile ────────────────────────── */
+@media (max-width: 767px) {
+    .pgrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .pgrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pgrid-overlay {
+        opacity: 1;
+    }
+}
+
 /* ── Funfact cards — square, no stagger on mobile ─────────── */
 @media (max-width: 809px) {
     /* Reset the desktop staggered margin offsets */

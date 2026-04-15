@@ -23,7 +23,7 @@ const FeatureV1 = () => {
                             {p.description}
                         </p>
                     </div>
-                    <div className="row g-4">
+                    <div className="pgrid">
                         {FeatureV1Data.map((feature) =>
                             <SingleFeatureV1 feature={feature} key={feature.id} />
                         )}
