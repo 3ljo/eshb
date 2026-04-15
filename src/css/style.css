@@ -321,11 +321,15 @@ a {
 
 /*==== # Header ====*/
 .header-menu-wrap {
-    position: absolute;
+    position: fixed;
     left: 0;
     width: 100%;
     top: 0;
     z-index: 1024;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .header-menu-wrap .custom-container {
@@ -773,7 +777,7 @@ a {
 
 /* ===== # Hero ===== */
 .hero-sec .hero-inner {
-    height: calc(100vh + 36px);
+    height: 80vh;
     padding: 0 72px 40px;
     display: flex;
     flex-direction: column;
@@ -782,6 +786,33 @@ a {
     position: relative;
     overflow: hidden;
     z-index: 1;
+}
+
+.hero-sec .hero-inner .hero-video video {
+    cursor: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+    filter: brightness(0.35);
+}
+
+.hero-sec .hero-inner .hero-video {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+}
+
+.hero-sec .hero-inner .hero-video::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.7) 100%);
+    pointer-events: none;
 }
 
 .hero-sec .hero-inner .hero-shape {
@@ -796,25 +827,6 @@ a {
     pointer-events: none;
 }
 
-.hero-sec .hero-inner .hero-video video {
-    cursor: auto;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    display: block;
-    object-fit: contain;
-    background-color: rgba(0, 0, 0, 0);
-    object-position: 50% 50%;
-}
-
-.hero-sec .hero-inner .hero-video {
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    width: 100%;
-    top: 0;
-    height: 100%;
-}
 
 .hero-sec>.custom-container {
     /*max-width: 1296px;*/
@@ -826,9 +838,11 @@ a {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     gap: 25px;
     padding-top: 136px;
+    align-self: flex-end;
+    text-align: right;
 }
 
 .hero-sec .hero-top .hero-top-desc {
@@ -885,6 +899,27 @@ a {
 
 .hero-sec .hero-bottom h2:nth-child(2) {
     font-family: var(--font_urbanist);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-sec .hero-bottom h2 .hero-dot-video {
+    display: inline-flex;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+.hero-sec .hero-bottom h2 .hero-dot-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-text-fill-color: initial;
 }
 
 .hero-sec .hero-bottom .left {
@@ -1328,7 +1363,7 @@ a {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 60px;
     width: 100%;
     z-index: 1;
@@ -1388,8 +1423,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 36px;
-    height: 98vh;
-    width: 100%;
+    height: 49vh;
+    width: 50%;
     top: 8px;
     overflow: hidden;
     position: sticky;
@@ -2542,7 +2577,7 @@ a {
 
 .pricing-lists {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     position: relative;
     z-index: 1;

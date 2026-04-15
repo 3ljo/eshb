@@ -13,37 +13,40 @@ const HeroV1 = () => {
 
                         {/* Background video */}
                         <div className="hero-video">
-                            <video loop muted autoPlay>
-                                <source src="/assets/video/hero-video.mp4" type="video/mp4" />
+                            <video loop muted autoPlay playsInline>
+                                <source src="/assets/video/screen-with-code-2026-01-21-12-08-37-utc.mp4" type="video/mp4" />
                             </video>
                         </div>
 
                         <div className="hero-top">
-                            {/* Quote / description */}
                             <div className="hero-top-desc">
                                 <p>{h.quote1}</p>
                                 <p>{h.quote2}</p>
                             </div>
-
-                            {/* Founder info */}
                             <div className="author-info">
                                 <h4>{h.ceoName}</h4>
                                 <span>{h.ceoTitle}</span>
                             </div>
                         </div>
 
-                        {/* Hero bottom — headline + CTA */}
                         <div className="hero-bottom">
                             <div className="left">
                                 <h2>{h.heading1}</h2>
-                                <h2>{h.heading2}</h2>
+                                <h2>
+                                    {h.heading2}
+                                    <span className="hero-dot-video">
+                                        <video loop muted autoPlay playsInline>
+                                            <source src="/assets/video/hero-video.mp4" type="video/mp4" />
+                                        </video>
+                                    </span>
+                                </h2>
                             </div>
-
                             <a href="#contact" className="theme-btn">
                                 {h.cta}
                                 <img src={btnArrowIcon} alt="icon" />
                             </a>
                         </div>
+
                     </div>
                 </div>
             </div>

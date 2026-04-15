@@ -1,10 +1,9 @@
 const SocialShareV1 = () => {
     return (
         <>
-            <li><a target="_blank" href="https://dribbble.com"><i className="lab la-dribbble" /></a></li>
-            <li><a target="_blank" href="https://facebook.com"><i className="lab la-facebook-f" /></a></li>
-            <li><a target="_blank" href="https://twitter.com"><i className="lab la-twitter" /></a></li>
-            <li><a target="_blank" href="https://instagram.com"><i className="lab la-instagram" /></a></li>
+            <li><a target="_blank" href="https://instagram.com/eshbtechnology"><i className="lab la-instagram" /></a></li>
+            <li><a target="_blank" href="https://linkedin.com/company/eshbtechnology"><i className="lab la-linkedin" /></a></li>
+            <li><a target="_blank" href="https://github.com/eshbtechnology"><i className="lab la-github" /></a></li>
         </>
     );
 };

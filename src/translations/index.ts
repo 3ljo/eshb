@@ -11,7 +11,8 @@ export const translations = {
       about: "About",
       services: "Services",
       projects: "Projects",
-      team: "Team",
+      team: "Pricing",
+      faq: "FAQ",
       contact: "Contact",
     },
 
@@ -32,10 +33,10 @@ export const translations = {
       description:
         "ESHB Technology was born from a shared vision: to build the world's best web and AI company from Albania. Founded by Eljo Shurdhi and Era Bullari, we combine deep technical expertise with creative ambition to deliver digital solutions that leave a global mark. We don't just build products — we craft experiences that drive growth and inspire trust.",
       stats: {
-        experience: "Years Experience",
+        experience: "Business Solutions",
         projects: "Completed Projects",
         clients: "Happy Clients",
-        team: "Team Members",
+        team: "AI Implementations",
       },
       founderTitle: "Our Founders",
       eljoRole: "CEO & Co-Founder",
@@ -133,8 +134,8 @@ export const translations = {
       messagePlaceholder: "Your Message",
       sendBtn: "Send Message",
       successMsg: "Thanks for reaching out! We'll be in touch soon.",
-      location: "Durrës, Albania",
-      emailLabel: "era1bullari1@gmail.com",
+      location: "Tirana, Albania",
+      emailLabel: "email@test.com",
     },
 
     // ── FOOTER ───────────────────────────────────────────────
@@ -149,7 +150,7 @@ export const translations = {
       reachOut: "Reach Out",
       social: "Social",
       rights: "All Rights Reserved",
-      location: "Based in Durrës, Albania",
+      location: "Based in Tirana, Albania",
       letsConnect: "Let's Connect",
     },
   },
@@ -163,7 +164,8 @@ export const translations = {
       about: "Rreth Nesh",
       services: "Shërbimet",
       projects: "Projektet",
-      team: "Ekipi",
+      team: "Çmimet",
+      faq: "FAQ",
       contact: "Kontakt",
     },
 
@@ -184,10 +186,10 @@ export const translations = {
       description:
         "ESHB Technology lindi nga një vizion i përbashkët: të ndërtojmë kompaninë më të mirë web dhe AI nga Shqipëria. E themeluar nga Eljo Shurdhi dhe Era Bullari, ne kombinojmë ekspertizën teknike të thellë me ambicie krijuese për të ofruar zgjidhje dixhitale që lënë gjurmë globale. Ne nuk ndërtojmë vetëm produkte — ne krijojmë përvoja që nxisin rritjen dhe frymëzojnë besimin.",
       stats: {
-        experience: "Vite Eksperiencë",
+        experience: "Zgjidhje Biznesi",
         projects: "Projekte të Përfunduara",
         clients: "Klientë të Kënaqur",
-        team: "Anëtarë të Ekipit",
+        team: "Implementime me AI",
       },
       founderTitle: "Themeluesit Tanë",
       eljoRole: "CEO & Bashkëthemelues",
@@ -285,8 +287,8 @@ export const translations = {
       messagePlaceholder: "Mesazhi Juaj",
       sendBtn: "Dërgo Mesazhin",
       successMsg: "Faleminderit për kontaktin! Do t'ju kthehemi shpejt.",
-      location: "Durrës, Shqipëri",
-      emailLabel: "era1bullari1@gmail.com",
+      location: "Tiranë, Shqipëri",
+      emailLabel: "email@test.com",
     },
 
     // ── FOOTER ───────────────────────────────────────────────
@@ -301,7 +303,7 @@ export const translations = {
       reachOut: "Na Kontaktoni",
       social: "Rrjete Sociale",
       rights: "Të Gjitha të Drejtat e Rezervuara",
-      location: "Bazuar në Durrës, Shqipëri",
+      location: "Bazuar në Tiranë, Shqipëri",
       letsConnect: "Na Kontaktoni",
     },
   },

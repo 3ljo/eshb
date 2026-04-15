@@ -2,15 +2,15 @@
     {
         "id": 1,
         "activeClass": "active",
-        "thumb": "https://picsum.photos/seed/fact1/400/300",
+        "thumb": "/assets/video/blocks-of-abstract-program-code-2026-01-23-01-16-36-utc.mp4",
         "delay": "100",
-        "title": "Years Experience",
-        "end": "3"
+        "title": "Business Solutions",
+        "end": "30"
     },
     {
         "id": 2,
         "activeClass": "",
-        "thumb": "https://picsum.photos/seed/fact2/400/300",
+        "thumb": "/assets/images/professional-development-programmer-cooperating-me-2026-03-16-06-31-02-utc.jpg",
         "delay": "200",
         "title": "Completed Projects",
         "end": "20"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "activeClass": "",
-        "thumb": "https://picsum.photos/seed/fact3/400/300",
+        "thumb": "/assets/images/young-business-people-in-the-office-2026-03-26-23-21-42-utc.jpg",
         "delay": "400",
         "title": "Happy Clients",
         "end": "15"
@@ -26,9 +26,9 @@
     {
         "id": 4,
         "activeClass": "",
-        "thumb": "https://picsum.photos/seed/fact4/400/300",
+        "thumb": "/assets/images/technology-meets-humanity-background-modern-remak-2026-01-07-07-37-57-utc.jpg",
         "delay": "600",
-        "title": "Team Members",
-        "end": "2"
+        "title": "AI Implementations",
+        "end": "10"
     }
 ]

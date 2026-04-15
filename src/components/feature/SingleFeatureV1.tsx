@@ -23,7 +23,7 @@ const SingleFeatureV1 = ({ feature }: { feature: DataType }) => {
             <div className="hover_mouse" ref={hoverElementRef}>
                 <span>{labels.view}</span>
             </div>
-            <div className="img-box" style={{ minHeight: "420px" }}>
+            <div className="img-box" style={{ minHeight: "210px" }}>
                 <img
                     src={thumb?.startsWith("http") ? thumb : `/assets/images/${thumb}`}
                     alt={projectName}

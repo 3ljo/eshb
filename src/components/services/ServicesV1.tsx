@@ -8,10 +8,10 @@ const ServicesV1 = () => {
     const s = t.services;
 
     const serviceAssets = [
-        { icon: "service-icon1.svg", thumb: "https://picsum.photos/seed/svc1/600/400", activeClass: "active" },
-        { icon: "service-icon2.svg", thumb: "https://picsum.photos/seed/svc2/600/400", activeClass: "" },
-        { icon: "service-icon3.svg", thumb: "https://picsum.photos/seed/svc3/600/400", activeClass: "" },
-        { icon: "service-icon4.svg", thumb: "https://picsum.photos/seed/svc4/600/400", activeClass: "" },
+        { icon: "service-icon1.svg", thumb: "/assets/images/service1.png", activeClass: "active" },
+        { icon: "service-icon2.svg", thumb: "/assets/images/service2.png", activeClass: "" },
+        { icon: "service-icon3.svg", thumb: "/assets/images/service3.png", activeClass: "" },
+        { icon: "service-icon4.svg", thumb: "/assets/images/service4.png", activeClass: "" },
     ];
 
     return (
@@ -67,7 +67,6 @@ const ServicesV1 = () => {
                                             <img
                                                 src={thumb}
                                                 alt={item.name}
-                                                style={{ objectFit: "cover", width: "100%", height: "100%" }}
                                             />
                                         </div>
                                     </div>

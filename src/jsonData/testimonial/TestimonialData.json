@@ -1,107 +1,72 @@
 [
     {
         "id": 1,
-        "text": "ESHB truly understands the power of storytelling and strategic marketing",
+        "text": "ESHB built our entire web platform from scratch in under 6 weeks. Clean code, beautiful design, and they were available every step of the way. Genuinely world-class work.",
         "thumb": "testimonial1.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "James Hartley",
+        "designation": "CEO, NovaTech Solutions"
     },
     {
         "id": 2,
-        "text": "Working with ESHB has been a transformative experience for our business",
+        "text": "They integrated an AI chatbot into our customer service flow and cut our response time by 70%. The automation just works — no issues, no downtime.",
         "thumb": "testimonial2.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Sofia Merano",
+        "designation": "Operations Director, PulseRetail"
     },
     {
         "id": 3,
-        "text": "ESHB truly understands the power of storytelling and strategic marketing",
+        "text": "ESHB redesigned our SaaS dashboard and our users immediately noticed. Churn dropped and engagement went up. Worth every penny.",
         "thumb": "testimonial1.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Daniel Osei",
+        "designation": "Founder, DataBridge"
     },
     {
         "id": 4,
-        "text": "We partnered with ESHB to design our mobile app, and the results were phenomenal magic",
+        "text": "We needed a landing page that converted. ESHB delivered a design that not only looked premium but increased our lead capture by over 40%.",
         "thumb": "testimonial2.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Laura Schneider",
+        "designation": "Marketing Lead, Elevate Agency"
     },
     {
         "id": 5,
-        "text": "Our corporate website needed a complete overhaul, and ESHB delivered beyond our expectations",
+        "text": "Working with ESHB felt like having an in-house team. Fast communication, sharp execution, and they truly care about the end result.",
         "thumb": "testimonial1.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Marco Bellini",
+        "designation": "Co-Founder, UrbanLogix"
     },
     {
         "id": 6,
-        "text": "ESHB truly understands the power of storytelling and strategic marketing",
+        "text": "The AI receptionist system ESHB built handles over 200 client inquiries a day without a single human touch. It paid for itself in the first month.",
         "thumb": "testimonial2.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Priya Nair",
+        "designation": "Managing Director, ClearPath Clinics"
     },
     {
         "id": 7,
-        "text": "Working with ESHB has been a transformative experience for our business",
+        "text": "From our first call to final delivery, ESHB was professional, transparent, and incredibly talented. Our new platform launched on time and on budget.",
         "thumb": "testimonial1.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Tom Eriksson",
+        "designation": "CTO, FlowStack"
     },
     {
         "id": 8,
-        "text": "ESHB truly understands the power of storytelling and strategic marketing",
+        "text": "We came with a vague idea and ESHB turned it into a fully working product. Their ability to translate business goals into technical solutions is rare.",
         "thumb": "testimonial2.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Amina Kowalski",
+        "designation": "Product Owner, GreenShift"
     },
     {
         "id": 9,
-        "text": "We partnered with ESHB to design our mobile app, and the results were phenomenal magic",
+        "text": "Best investment we made this year. ESHB built our logistics tracking system and it handles thousands of deliveries daily without breaking a sweat.",
         "thumb": "testimonial1.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Carlos Vega",
+        "designation": "Head of Operations, SwiftMove"
     },
     {
         "id": 10,
-        "text": "Our corporate website needed a complete overhaul, and ESHB delivered beyond our expectations",
+        "text": "I've worked with agencies across Europe and ESHB stands out. They combine technical depth with real creative vision — a rare combination.",
         "thumb": "testimonial2.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
-    },
-    {
-        "id": 11,
-        "text": "ESHB truly understands the power of storytelling and strategic marketing",
-        "thumb": "testimonial1.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
-    },
-    {
-        "id": 12,
-        "text": "Working with ESHB has been a transformative experience for our business",
-        "thumb": "testimonial2.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
-    },
-    {
-        "id": 13,
-        "text": "Our corporate website needed a complete overhaul, and ESHB delivered beyond our expectations",
-        "thumb": "testimonial1.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
-    },
-    {
-        "id": 14,
-        "text": "ESHB truly understands the power of storytelling and strategic marketing",
-        "thumb": "testimonial2.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
-    },
-    {
-        "id": 15,
-        "text": "Working with ESHB has been a transformative experience for our business",
-        "thumb": "testimonial1.png",
-        "name": "Michael Richards",
-        "designation": "GreenWave Energy"
+        "name": "Natalie Brooks",
+        "designation": "Brand Director, Luminos Group"
     }
 ]

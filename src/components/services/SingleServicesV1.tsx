@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 interface DataType {
     id?: number;
@@ -17,7 +16,7 @@ const SingleServicesV1 = ({ services }: { services: DataType }) => {
                 <div className="service-inner">
                     <h4 className="title">
                         <img src={`/assets/images/${icon}`} alt="icon" />
-                        <Link to={`/service-details/${id}`}>{name}</Link>
+                        <span>{name}</span>
                     </h4>
                     <p className="service-feature-lists">
                         <span>I. Legacy Modernization </span>

@@ -31,10 +31,13 @@ const HeaderMenu = () => {
                                     <a href="#projects">{t.nav.projects} <span /></a>
                                 </li>
                                 <li>
-                                    <a href="#team">{t.nav.team} <span /></a>
+                                    <a href="#pricing">{t.nav.team} <span /></a>
                                 </li>
                                 <li>
-                                    <a href="#contact">{t.nav.contact} <span /></a>
+                                    <a href="#faq">{t.nav.faq} <span /></a>
+                                </li>
+                                <li>
+                                <a href="#contact">{t.nav.contact} <span /></a>
                                 </li>
                             </ul>
                         </nav>
@@ -59,7 +62,7 @@ const HeaderMenu = () => {
                             >
                                 {lang === "en" ? "🇦🇱 AL" : "🇬🇧 EN"}
                             </button>
-                            <a href="mailto:era1bullari1@gmail.com">
+                            <a href="mailto:email@test.com">
                                 <i className="iconoir-mail-out" />
                             </a>
                         </div>

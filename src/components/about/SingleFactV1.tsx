@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import angleIcon from "/assets/images/angle-icon-1.svg"
 
 interface DataType {
@@ -12,19 +11,33 @@ interface DataType {
 
 const SingleFactV1 = ({ fact }: { fact: DataType }) => {
     const { id, activeClass, thumb, delay, title, end } = fact
+    const isVideo = thumb?.endsWith(".mp4");
+    const mediaSrc = thumb?.startsWith("http") || thumb?.startsWith("/") ? thumb : `/assets/images/${thumb}`;
 
     return (
         <>
             <div data-aos="fade-up" data-aos-delay={delay} className={`funfact-box ${activeClass}`}>
-                <img src={thumb?.startsWith("http") ? thumb : `/assets/images/${thumb}`} alt="funfact" className="overlay" />
+                {isVideo ? (
+                    <video
+                        className="overlay"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        style={{ objectFit: "cover" }}
+                    >
+                        <source src={mediaSrc} type="video/mp4" />
+                    </video>
+                ) : (
+                    <img src={mediaSrc} alt="funfact" className="overlay" />
+                )}
                 <div className="funfact-header">
                     <span className="title">{title}</span>
                 </div>
                 <div className="funfact-footer">
-                    <span className="number">{end}<span>+</span></span>
-                    <Link to={`/service-details/${id}`}>
+                    <a href="#contact">
                         <img src={angleIcon} alt="icon" />
-                    </Link>
+                    </a>
                 </div>
             </div>
         </>

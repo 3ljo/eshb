@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "thumb": "https://picsum.photos/seed/eshb1/1200/700",
+        "thumb": "business-team-analyzing-income-charts-and-graphs-w-2026-01-07-05-56-33-utc.jpg",
         "projectName": "AI Business Assistant",
         "subTitle1": "A conversational AI platform built for small businesses",
         "subTitle2": "to automate customer support and lead qualification.",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "thumb": "https://picsum.photos/seed/eshb2/1200/700",
+        "thumb": "shopping-cart-with-credit-card-and-woman-accessori-2026-03-19-22-09-21-utc.JPG",
         "projectName": "E-Commerce Platform",
         "subTitle1": "A full-stack e-commerce solution with real-time inventory,",
         "subTitle2": "custom CMS, and integrated payment processing.",
@@ -19,11 +19,38 @@
     },
     {
         "id": 3,
-        "thumb": "https://picsum.photos/seed/eshb3/1200/700",
+        "thumb": "financial-traders-team-working-on-stock-exchange-2026-01-08-07-48-18-utc.jpg",
         "projectName": "SaaS Dashboard",
         "subTitle1": "A modern analytics dashboard with predictive insights",
         "subTitle2": "and seamless third-party API integrations.",
         "info": "Custom Software",
+        "date": "February 2025"
+    },
+    {
+        "id": 4,
+        "thumb": "disappointed-stressed-woman-and-ai-robot-in-the-of-2026-03-16-23-00-34-utc.jpg",
+        "projectName": "AI Receptionist System",
+        "subTitle1": "An intelligent AI-powered receptionist that handles",
+        "subTitle2": "bookings, inquiries, and client interactions 24/7.",
+        "info": "AI Solutions",
+        "date": "April 2025"
+    },
+    {
+        "id": 5,
+        "thumb": "creative-glowing-blurry-global-delivery-scheme-hol-2026-01-11-08-46-13-utc.jpg",
+        "projectName": "Logistics Delivery Platform",
+        "subTitle1": "A real-time logistics and delivery management system",
+        "subTitle2": "with live tracking, route optimization, and driver app.",
+        "info": "Web Development",
+        "date": "March 2025"
+    },
+    {
+        "id": 6,
+        "thumb": "marketing-advertising-and-tablet-with-a-business-2026-01-09-09-19-56-utc.jpg",
+        "projectName": "Business Landing Page",
+        "subTitle1": "A high-converting landing page crafted for businesses",
+        "subTitle2": "to showcase services, capture leads, and drive growth.",
+        "info": "UI/UX Design",
         "date": "February 2025"
     }
 ]

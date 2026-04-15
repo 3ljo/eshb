@@ -1,4 +1,4 @@
-const sidebarbg = "https://picsum.photos/seed/sidebar/600/900";
+const sidebarbg = "/assets/images/technology-meets-humanity-background-modern-remak-2026-01-07-07-37-57-utc.jpg";
 import SocialShareV1 from "../social/SocialShareV1";
 import { useEffect, useState } from "react";
 import { useLang } from "../../context/LanguageContext";
@@ -53,7 +53,7 @@ const HeaderSidebar = () => {
                         <ul>
                             <li>
                                 <span>{t.contact.location}</span>
-                                <a href="mailto:era1bullari1@gmail.com">era1bullari1@gmail.com</a>
+                                <a href="mailto:email@test.com">email@test.com</a>
                             </li>
                             <li>
                                 <span>ESHB Technology</span>
@@ -75,7 +75,10 @@ const HeaderSidebar = () => {
                                 <a href="#projects" onClick={handleCloseClick}>{t.nav.projects}</a>
                             </li>
                             <li>
-                                <a href="#team" onClick={handleCloseClick}>{t.nav.team}</a>
+                                <a href="#pricing" onClick={handleCloseClick}>{t.nav.team}</a>
+                            </li>
+                            <li>
+                                <a href="#faq" onClick={handleCloseClick}>{t.nav.faq}</a>
                             </li>
                             <li>
                                 <a href="#contact" onClick={handleCloseClick}>{t.nav.contact}</a>
