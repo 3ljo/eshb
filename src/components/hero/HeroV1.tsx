@@ -32,14 +32,7 @@ const HeroV1 = () => {
                         <div className="hero-bottom">
                             <div className="left">
                                 <h2>{h.heading1}</h2>
-                                <h2>
-                                    {h.heading2}
-                                    <span className="hero-dot-video">
-                                        <video loop muted autoPlay playsInline>
-                                            <source src="/assets/video/hero-video.mp4" type="video/mp4" />
-                                        </video>
-                                    </span>
-                                </h2>
+                                <h2>{h.heading2}</h2>
                             </div>
                             <a href="#contact" className="theme-btn">
                                 {h.cta}

@@ -23,8 +23,8 @@ const FeatureV1 = () => {
                             {p.description}
                         </p>
                     </div>
-                    <div className="feature-project-lists">
-                        {FeatureV1Data.map(feature =>
+                    <div className="row g-4">
+                        {FeatureV1Data.map((feature) =>
                             <SingleFeatureV1 feature={feature} key={feature.id} />
                         )}
                     </div>

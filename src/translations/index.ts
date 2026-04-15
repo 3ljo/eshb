@@ -34,7 +34,7 @@ export const translations = {
         "ESHB Technology was born from a shared vision: to build the world's best web and AI company from Albania. Founded by Eljo Shurdhi and Era Bullari, we combine deep technical expertise with creative ambition to deliver digital solutions that leave a global mark. We don't just build products — we craft experiences that drive growth and inspire trust.",
       stats: {
         experience: "Business Solutions",
-        projects: "Completed Projects",
+        projects: "Systems",
         clients: "Happy Clients",
         team: "AI Implementations",
       },
@@ -187,7 +187,7 @@ export const translations = {
         "ESHB Technology lindi nga një vizion i përbashkët: të ndërtojmë kompaninë më të mirë web dhe AI nga Shqipëria. E themeluar nga Eljo Shurdhi dhe Era Bullari, ne kombinojmë ekspertizën teknike të thellë me ambicie krijuese për të ofruar zgjidhje dixhitale që lënë gjurmë globale. Ne nuk ndërtojmë vetëm produkte — ne krijojmë përvoja që nxisin rritjen dhe frymëzojnë besimin.",
       stats: {
         experience: "Zgjidhje Biznesi",
-        projects: "Projekte të Përfunduara",
+        projects: "Sisteme",
         clients: "Klientë të Kënaqur",
         team: "Implementime me AI",
       },

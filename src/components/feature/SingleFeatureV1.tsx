@@ -1,6 +1,3 @@
-import useHoverEffect from "../../hooks/useHoverEffect";
-import { useLang } from "../../context/LanguageContext";
-
 interface DataType {
     id?: number;
     thumb?: string;
@@ -12,40 +9,19 @@ interface DataType {
 }
 
 const SingleFeatureV1 = ({ feature }: { feature: DataType }) => {
-    const { thumb, projectName, subTitle1, subTitle2, info, date } = feature;
-    const { t } = useLang();
-    const labels = t.projects.labels;
-
-    const { containerRef, hoverElementRef } = useHoverEffect();
+    const { thumb, projectName, subTitle1, subTitle2, info } = feature;
+    const imgSrc = thumb?.startsWith("http") ? thumb : `/assets/images/${thumb}`;
 
     return (
-        <div className="feature-project" ref={containerRef}>
-            <div className="hover_mouse" ref={hoverElementRef}>
-                <span>{labels.view}</span>
-            </div>
-            <div className="img-box" style={{ minHeight: "210px" }}>
-                <img
-                    src={thumb?.startsWith("http") ? thumb : `/assets/images/${thumb}`}
-                    alt={projectName}
-                    style={{ objectFit: "cover", objectPosition: "center" }}
-                />
-            </div>
-            <div className="feature-project-infos">
-                <div className="feature-project-info-box">
-                    <span className="title">{labels.name}</span>
-                    <span className="subtitle">{projectName}</span>
+        <div className="col-lg-4 col-md-6">
+            <div className="pcard">
+                <div className="pcard-img">
+                    <img src={imgSrc} alt={projectName} />
                 </div>
-                <div className="feature-project-info-box">
-                    <span className="title">{labels.description}</span>
-                    <span className="subtitle">{subTitle1}<br />{subTitle2}</span>
-                </div>
-                <div className="feature-project-info-box">
-                    <span className="title">{labels.industry}</span>
-                    <span className="subtitle">{info}</span>
-                </div>
-                <div className="feature-project-info-box">
-                    <span className="title">{labels.date}</span>
-                    <span className="subtitle">{date}</span>
+                <div className="pcard-body">
+                    <span className="pcard-tag">{info}</span>
+                    <h4 className="pcard-title">{projectName}</h4>
+                    <p className="pcard-desc">{subTitle1} {subTitle2}</p>
                 </div>
             </div>
         </div>

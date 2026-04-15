@@ -200,11 +200,11 @@ a {
 }
 
 .section-header .section-title {
-    font-size: 48px;
+    font-size: 25px;
     font-weight: 400;
     color: var(--primary);
-    line-height: 60px;
-    letter-spacing: -2px;
+    line-height: 24px;
+    letter-spacing: -1px;
     margin: 0;
 }
 
@@ -953,12 +953,12 @@ a {
 
 /* ===== # About ===== */
 .about-sec {
-    padding: 90px 72px;
+    padding: 60px 72px;
     background: linear-gradient(0deg, rgba(31, 31, 31, 0) 0%, #1f1f1f 100%);
 }
 
 .about-sec .section-header {
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
 .about-sec .section-header .right {
@@ -1357,6 +1357,73 @@ a {
 
 .feature-sec .section-header {
     margin-bottom: 60px;
+}
+
+/* ── Project cards ───────────────────────────────────────── */
+.pcard {
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pcard:hover {
+    transform: translateY(-6px);
+    border-color: rgba(255,255,255,0.2);
+}
+
+.pcard-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.pcard-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.pcard:hover .pcard-img img {
+    transform: scale(1.06);
+}
+
+.pcard-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.pcard-tag {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+}
+
+.pcard-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.pcard-desc {
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+    margin: 0;
+    line-height: 1.6;
 }
 
 .feature-project-lists {

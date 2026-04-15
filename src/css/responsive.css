@@ -736,30 +736,30 @@
     /* Section headings */
     .section-title,
     .section-title.section-title2 {
-        font-size: 28px;
-        line-height: 34px;
-        letter-spacing: -0.02em;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0;
         padding: 0;
         margin: 0;
     }
 
     .section-header {
-        gap: 12px;
-        margin-bottom: 32px;
+        gap: 8px;
+        margin-bottom: 24px;
     }
 
     .section-header .section-desc {
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 18px;
     }
 
     /* About section */
     .about-sec {
-        padding: 48px 20px;
+        padding: 32px 16px;
     }
 
     .about-sec .section-header {
-        margin-bottom: 40px;
+        margin-bottom: 28px;
     }
 
     /* Services section */
@@ -853,5 +853,128 @@
 
     .pricing-sec .pricing_nav {
         gap: 30px;
+    }
+}
+
+/* ── Mobile hamburger button ─────────────────────────────── */
+.mobile-menu-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    z-index: 1001;
+}
+
+.ham-line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.25s;
+}
+
+.ham-line.open:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+.ham-line.open:nth-child(2) {
+    opacity: 0;
+}
+.ham-line.open:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Mobile dropdown nav */
+.mobile-nav-dropdown {
+    display: none;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    right: 0;
+    background: rgba(13,13,13,0.97);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255,255,255,0.08);
+    z-index: 1023;
+    padding: 20px 22px 24px;
+}
+
+.mobile-nav-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.mobile-nav-dropdown ul li a {
+    display: block;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    color: rgba(255,255,255,0.85);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.mobile-nav-dropdown ul li a:hover {
+    color: #fff;
+}
+
+.mobile-nav-footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 1439px) {
+    /* Show hamburger, hide the empty desktop navbar element */
+    .mobile-menu-btn {
+        display: flex;
+    }
+
+    .mobile-nav-dropdown {
+        display: block;
+    }
+
+    /* Hide the desktop nav entirely so it doesn't mess up flex layout */
+    .header-menu-wrap .navbar {
+        display: none;
+    }
+
+    /* Keep right-side info (lang toggle + email) but push hamburger to the edge */
+    .header-menu-wrap .custom-container .custom-row {
+        justify-content: space-between;
+    }
+}
+
+/* ── Funfact cards — square, no stagger on mobile ─────────── */
+@media (max-width: 809px) {
+    /* Reset the desktop staggered margin offsets */
+    .about-sec .funfacts-wrap .funfact-box:nth-child(odd),
+    .about-sec .funfacts-wrap .funfact-box:nth-child(3) {
+        margin-top: 0 !important;
+    }
+
+    /* Override fixed height so aspect-ratio works */
+    .funfact-box {
+        height: auto !important;
+        aspect-ratio: 1 / 1;
+    }
+}
+
+/* ── Section headings further reduced on very small screens ── */
+@media (max-width: 480px) {
+    .section-header .section-title,
+    .section-title.section-title2,
+    h3.section-title {
+        font-size: 20px !important;
+        line-height: 26px !important;
+        letter-spacing: 0 !important;
     }
 }
