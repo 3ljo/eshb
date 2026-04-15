@@ -731,6 +731,115 @@
     }
 }
 
+@media (max-width: 480px) {
+
+    /* Section headings */
+    .section-title,
+    .section-title.section-title2 {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: -0.02em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .section-header {
+        gap: 12px;
+        margin-bottom: 32px;
+    }
+
+    .section-header .section-desc {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    /* About section */
+    .about-sec {
+        padding: 48px 20px;
+    }
+
+    .about-sec .section-header {
+        margin-bottom: 40px;
+    }
+
+    /* Services section */
+    .service-sec {
+        padding: 40px 0;
+    }
+
+    .service-sec > .custom-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .service-lists-header .custom-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .service-header-th {
+        font-size: 12px;
+    }
+
+    .service-box .service-inner .title {
+        font-size: 18px;
+        gap: 8px;
+    }
+
+    .service-box .service-inner .service-feature-lists {
+        font-size: 12px;
+    }
+
+    /* Hero headings */
+    .hero-sec .hero-bottom h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .hero-sec .hero-bottom h2 .hero-dot-video {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Contact */
+    .contact-sec .contact-content h3 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    /* Pricing */
+    .pricing-box .price {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .pricing-box {
+        padding: 24px 16px;
+    }
+
+    /* FAQ */
+    .faq-sec {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Funfact cards */
+    .about-sec .funfacts-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .about-sec .funfacts-wrap .funfact-box:nth-child(odd),
+    .about-sec .funfacts-wrap .funfact-box:nth-child(3) {
+        margin-top: 0;
+    }
+
+    .funfact-box .funfact-header .title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
 @media (max-width: 450px) {
     .pricing-sec .pricing_nav_wrap .nav-hover-shape {
         width: 50%;
