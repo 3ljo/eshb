@@ -626,16 +626,14 @@
     .feature-projects-lists .feature-project-single {
         width: 100%;
     }
-}
 
-@media (max-width: 809px) {
-    .feature-project {
-        width: 100% !important;
-        height: auto !important;
+    .feature-project-lists .feature-project {
+        width: 100%;
+        height: auto;
     }
 
-    .feature-project .img-box {
-        min-height: 260px !important;
+    .feature-project-lists .feature-project .img-box {
+        min-height: 260px;
     }
 
     .feature-project-lists {

@@ -1,6 +1,4 @@
-
 interface DataType {
-    id?: number;
     activeClass?: string;
     name?: string;
     thumb?: string;
@@ -8,28 +6,26 @@ interface DataType {
 }
 
 const SingleServicesV1 = ({ services }: { services: DataType }) => {
-    const { icon, name, thumb, activeClass } = services
+    const { icon, name, thumb, activeClass } = services;
 
     return (
-        <>
-            <div className={`service-box ${activeClass}`}>
-                <div className="service-inner">
-                    <h4 className="title">
-                        <img src={`/assets/images/${icon}`} alt="icon" />
-                        <span>{name}</span>
-                    </h4>
-                    <p className="service-feature-lists">
-                        <span>I. Legacy Modernization </span>
-                        <span>II. Solution Design </span>
-                        <span>III. Technology Enabling </span>
-                        <span>IV. Mobile-First Systems</span>
-                    </p>
-                    <div className="service-img-box">
-                        <img src={`/assets/images/${thumb}`} alt="Icon" />
-                    </div>
+        <div className={`service-box ${activeClass}`}>
+            <div className="service-inner">
+                <h4 className="title">
+                    <img src={`/assets/images/${icon}`} alt="icon" />
+                    <span>{name}</span>
+                </h4>
+                <p className="service-feature-lists">
+                    <span>I. Legacy Modernization </span>
+                    <span>II. Solution Design </span>
+                    <span>III. Technology Enabling </span>
+                    <span>IV. Mobile-First Systems</span>
+                </p>
+                <div className="service-img-box">
+                    <img src={`/assets/images/${thumb}`} alt="Icon" />
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
